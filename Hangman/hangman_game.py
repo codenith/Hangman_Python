@@ -1,1 +1,2 @@
 print('Hangman')
+print('Hello')
