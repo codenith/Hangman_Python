@@ -5,6 +5,7 @@ word_list = [
     'extend',
     'brown',
     'expert',
+    'jackfruit',
     'tired',
     'humidity',
     'backpack',
