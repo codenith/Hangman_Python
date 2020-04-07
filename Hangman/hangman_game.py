@@ -13,6 +13,7 @@ def get_word():  # return a word for our game
 def play(word):
    # same length as the chosen one initially it will be underscores only for word_completion
    word_completion = '_' * len(word)
+   word_len=str(len(word))
    guessed = False
    guessed_letters = []  # holds the letter user guesses
    guessed_words = []  # holds the words user guesses
@@ -23,6 +24,7 @@ def play(word):
    print("Let's play Hangman")
    print(display_hangman(tries))  # Initial state of hangman games
    print(word_completion)  # Initial stage of word with all underscores
+   print("\nLetter count: " + word_len)
    print("\n")
    while not guessed and tries > 0:         # Run until the word is guessed or the user runs out of tries
          guess = input("Please guess a letter or word : ").upper()
