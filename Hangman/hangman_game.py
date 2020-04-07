@@ -21,7 +21,7 @@ def play(word):
 
    # Printing some initial output to help guide the user when the game starts
    print("Let's play Hangman")
-   print(display_hangman(tries))  # Initial state of hangman
+   print(display_hangman(tries))  # Initial state of hangman game
    print(word_completion)  # Initial stage of word with all underscores
    print("\n")
    while not guessed and tries > 0:         # Run until the word is guessed or the user runs out of tries
